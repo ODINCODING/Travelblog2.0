@@ -1,11 +1,12 @@
 import "./NavBar.css";
+import MobileDropDown from "./MobileMenu";
 
 function NavBar() {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io" />
-        <img src="./images/Heart.png" width="80" height="14" />
+        <img src="./images/Heart.png" width="70" height="10" />
 
         <a
           role="button"
@@ -19,21 +20,20 @@ function NavBar() {
           <span aria-hidden="true"></span>
         </a>
       </div>
-
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <a className="navbar-item">Home</a>
+          <a className="navbar-item">🏠Home</a>
 
-          <a className="navbar-item">Locations</a>
+          <a className="navbar-item">📍Locations</a>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">About</a>
+            <a className="navbar-link">🙋🏻‍♂️About</a>
 
             <div className="navbar-dropdown">
-              <a className="navbar-item">Me</a>
-              <a className="navbar-item">Contact Me</a>
+              <a className="navbar-item">🙋🏻‍♂️Me</a>
+              <a className="navbar-item">📬Contact Me</a>
               <hr className="navbar-divider" />
-              <a className="navbar-item">Report an issue</a>
+              <a className="navbar-item">⚡️Report an issue⚡️</a>
             </div>
           </div>
         </div>
