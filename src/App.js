@@ -6,8 +6,8 @@ function App() {
   return (
     <section>
       <NavBar />
-      <MobileDropDown />
       <div></div>
+      <MobileDropDown />
     </section>
   );
 }
