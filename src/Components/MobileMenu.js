@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Menu>
       <a id="home" className="menu-item" href="/">
-        🏠Home
+        <i class="fa-solid fa-house"></i> Home
       </a>
       <a id="about" className="menu-item" href="/about">
         🙋🏻‍♂️About

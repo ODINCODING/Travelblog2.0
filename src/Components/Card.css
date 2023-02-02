@@ -1,0 +1,14 @@
+.card-image {
+  height: 60%;
+  width: 100%;
+}
+.card {
+  height: 600px;
+  width: 400px;
+  border-radius: 1px;
+  background-color: aliceblue;
+}
+.card-image {
+  height: 50%;
+  width: ;
+}
