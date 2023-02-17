@@ -1,18 +1,20 @@
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import MobileDropDown from "./Components/MobileMenu";
-import ContentCard from "./Components/CCParis";
-import CCDUbai from "./Components/CCDubai";
-import CCParis from "./Components/CCParis";
+import ContentCard from "./Components/ContentCard";
 
 function App() {
   return (
     <section>
       <NavBar />
-      <div></div>
       <MobileDropDown />
-      <CCParis />
-      <CCDUbai />
+      <div className="Cards">
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+        <ContentCard />
+      </div>
     </section>
   );
 }

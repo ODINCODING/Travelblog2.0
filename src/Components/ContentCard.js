@@ -1,7 +1,8 @@
 import "./Card.css";
 
-function CCParis() {
+function ContentCard() {
   return (
+    //Pass Props into cards
     <div className="card">
       <div className="card-image">
         <img src="./images/paris.jpg" />
@@ -14,8 +15,8 @@ function CCParis() {
             </figure>
           </div>
           <div className="media-content">
-            <p className="title is-3">René Triechelt</p>
-            <p className="subtitle is-6">@ODINCODING</p>
+            <p className="title is-4">René Triechelt</p>
+            <p className="subtitle is-7">@ODINCODING</p>
           </div>
         </div>
 
@@ -33,4 +34,4 @@ function CCParis() {
   );
 }
 
-export default CCParis;
+export default ContentCard;
